@@ -1,7 +1,7 @@
 import {ListNode, mergeTwoLists} from './mergeTwoLists';
 
 describe('mergeTwoLists', () => {
-  it.only('should return list with [1,1,2,3,4,4] elements when first list constains [1,2,4] and second one [1,3,4]', () => {
+  it('should return list with [1,1,2,3,4,4] elements when first list constains [1,2,4] and second one [1,3,4]', () => {
     const LIST1 = new ListNode(1, new ListNode(2, new ListNode(4)));
     const LIST2 = new ListNode(1, new ListNode(3, new ListNode(4)));
     const RESULT_LIST = new ListNode(
