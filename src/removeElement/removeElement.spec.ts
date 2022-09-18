@@ -16,6 +16,6 @@ describe('removeElement', () => {
     const length = removeElement(NUMS, 2);
 
     expect(length).toEqual(5);
-    expect(NUMS).toEqual([0, 1, 3, 0, 4]);
+    expect(NUMS).toEqual(expect.arrayContaining([0, 1, 3, 0, 4]));
   });
 });

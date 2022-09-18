@@ -1,6 +1,6 @@
 import {buildTree} from './buildTree';
 
-describe.only('buildTree', () => {
+describe('buildTree', () => {
   it('should build tree with same directory names and other types', () => {
     const NODES = {
       dir1: {

@@ -7,6 +7,7 @@ describe('removeDuplicates', () => {
     const length = removeDuplicates(NUMS);
 
     expect(length).toEqual(2);
-    expect(NUMS).toEqual([1, 2, -1]);
+
+    expect(NUMS).toEqual([1, 2]);
   });
 });
